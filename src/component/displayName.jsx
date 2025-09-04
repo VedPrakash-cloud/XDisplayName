@@ -6,6 +6,7 @@ export default function DisplayName() {
   const [fullName, setFullName] = useState("");
 
   const handleSubmit = (event) => {
+    if(!firstName || !lastName) return;
     event.preventDefault();
     setFullName(`Full Name: ${firstName} ${lastName}`);
   };
