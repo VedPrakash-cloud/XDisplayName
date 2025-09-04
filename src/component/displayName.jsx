@@ -31,7 +31,7 @@ export default function DisplayName() {
           required
         />
         <br />
-        <button value="submit">
+        <button type="submit">
           Submit
         </button>
         </form>
