@@ -35,8 +35,9 @@ export default function DisplayName() {
         <button type="submit">
           Submit
         </button>
-        </form>
+        <br />
         {fullName}
+        </form>
         </div>
     </div>
   );
